@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .links {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav .links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
+nav .nav-buttons {
+  width: 50%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .nav-buttons button {
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+nav .nav-buttons .name {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.home {
+  width: 100%;
+  min-height: 200px;
+}
+.home .hero {
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  z-index: 0;
+}
+.home .hero img {
+  width: 960px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  z-index: 0;
+  position: absolute;
+}
+.home .hero .overlay {
+  width: 960px;
+  height: 500px;
+  background-color: rgb(161, 106, 3);
+  opacity: 25%;
+  z-index: 0;
+  position: absolute;
+}
+.home .callout {
+  width: 250px;
+  height: 50px;
+}
+.home .callout h2 {
+  width: 250px;
+  height: 50px;
+  background-color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  border-radius: 20px;
+  border: 2px solid #000;
+  z-index: 2;
+  margin-top: -150px;
+  margin-left: 250px;
+}
+.home .callout p {
+  width: 400px;
+  height: 125px;
+  background-color: antiquewhite;
+  padding: 10px;
+  position: absolute;
+  border-radius: 20px;
+  border: 2px solid #000;
+  z-index: 3;
+  margin-top: -75px;
+  margin-left: 650px;
+}
+
+.create {
+  width: 100%;
+  min-height: 200px;
+}
+.create .wrapper {
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url(../images/create-account.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.create .wrapper .left-wrap {
+  width: 50%;
+  height: 100%;
+}
+.create .wrapper .left-wrap .create-account {
+  width: 100%;
+  height: 100%;
+  margin: 100px;
+}
+.create .wrapper .left-wrap .create-account input {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.create .wrapper .right-wrap {
+  width: 50%;
+  height: 100%;
+}
+.create .wrapper .right-wrap .logIn {
+  width: 100%;
+  height: 100%;
+  margin: 100px;
+}
+.create .wrapper .right-wrap .logIn input {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+}

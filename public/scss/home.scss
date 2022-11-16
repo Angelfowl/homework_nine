@@ -1,0 +1,64 @@
+.home {
+    width: 100%;
+    min-height: 200px;
+
+    .hero {
+        width: 960px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+        z-index: 0;
+
+        img {
+            width: 960px;
+            height: 500px;
+            object-fit: cover;
+            object-position: center;
+            z-index: 0;
+            position: absolute;
+        }
+
+        .overlay {
+            width: 960px;
+            height: 500px;
+            background-color: rgb(161, 106, 3);
+            opacity: 25%;
+            z-index: 0;
+            position: absolute;
+        }
+    }
+
+    .callout {
+        width: 250px;
+        height: 50px;
+
+        h2 {
+            width: 250px;
+            height: 50px;
+            background-color: antiquewhite;
+            text-align: center;
+            padding-top: 10px;
+            position: absolute;
+            border-radius: 20px;
+            border: 2px solid #000;
+            z-index: 2;
+            margin-top: -150px;
+            margin-left: 250px;
+        }
+
+        p {
+            width: 400px;
+            height: 125px;
+            background-color: antiquewhite;
+            padding: 10px;
+            position: absolute;
+            border-radius: 20px;
+            border: 2px solid #000;
+            z-index: 3;
+            margin-top: -75px;
+            margin-left: 650px;
+        }
+
+    }
+}
